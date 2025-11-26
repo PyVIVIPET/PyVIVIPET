@@ -7,6 +7,13 @@
 *.nhdr
 *.mnc.gz
 
+# Output images
+*.png
+*.jpg
+*.jpeg
+*.tif
+*.tiff
+
 # Byte-compiled / optimized / DLL files
 __pycache__/
 *.py[codz]
