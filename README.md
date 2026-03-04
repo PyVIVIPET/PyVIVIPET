@@ -11,11 +11,18 @@ First clone the repository:
 ```
 git clone https://github.com/PyVIVIPET/PyVIVIPET
 ```
-Create and activate a virtual environment:
+
+Create and activate the environment (explicitly use Python 3.12 to avoid 3.14 comptatability issues with vtk==9.5.2):
 ```
-python3 -m venv venv
+python3.12 -m venv venv
 source ./venv/bin/activate
 ```
+
+Install dependencies from the requirements.txt:
+```
+pip install -r requirements.txt
+```
+
 Install the tool:
 ```
 pip install -e .
